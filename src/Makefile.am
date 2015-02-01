@@ -1,0 +1,1 @@
+SUBDIRS = core opencv app

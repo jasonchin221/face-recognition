@@ -19,8 +19,8 @@ ltmain.sh
 .deps/
 *.o
 *.swp
-src/apps/fv_test
-src/apps/fv_app
+src/app/fr_test
+src/app/fr_app
 stamp-h1
 Makefile
 autom4te.cache

@@ -1,8 +1,8 @@
-bin_PROGRAMS = fr_app fr_test
-fr_app_SOURCES = fr_app.c
-fr_app_LDADD = $(srcdir)/../opencv/libopencv_can.la $(srcdir)/../core/libface_recognize.la
-fr_test_SOURCES = fr_test.c
-fr_test_LDADD = $(srcdir)/../opencv/libopencv_can.la $(srcdir)/../core/libface_recognize.la
+bin_PROGRAMS = ns_app ns_test
+ns_app_SOURCES = ns_app.cpp
+ns_app_LDADD = $(srcdir)/../net/libnetwork_stack.la
+ns_test_SOURCES = ns_test.cpp
+ns_test_LDADD = $(srcdir)/../net/libnetwork_stack.la
 
 AM_CPPFLAGS = -I$(srcdir)/../include
 AM_CFLAGS = -Wall -Werror

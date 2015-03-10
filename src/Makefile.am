@@ -1,1 +1,1 @@
-SUBDIRS = core opencv app
+SUBDIRS = net app
